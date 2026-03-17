@@ -1,0 +1,21 @@
+{
+  "train_locations": [
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1341_LASALLE_ST_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1307_HATERAS_AVE_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1320_LASALLE_ST_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1208_REDBUD_ST_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1327_BEATTIES_FORD_RD_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1313_HATERAS_AVE_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1400_LASALLE_ST_CHARLOTTE_NC"
+  ],
+  "val_locations": [
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1315_HATERAS_AVE_CHARLOTTE_NC",
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1315_BEATTIES_FORD_RD_CHARLOTTE_NC"
+  ],
+  "test_locations": [
+    "C:\\Atharva_Projects\\Tiny_Test_A\\revised_gsv_dataset_tiny_test\\data\\1321_HATERAS_AVE_CHARLOTTE_NC"
+  ],
+  "train_ratio": 0.7,
+  "val_ratio": 0.2,
+  "random_seed": 42
+}

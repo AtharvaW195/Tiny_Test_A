@@ -1,0 +1,51 @@
+
+EVALUATION REPORT - MOBILENET_V2
+Generated on: 2026-03-17 02:05:52
+
+================================================================================
+
+OVERALL METRICS:
+- Accuracy: 0.0000
+- Precision (Macro): 0.0000
+- Recall (Macro): 0.0000
+- F1-Score (Macro): 0.0000
+
+TOP-K ACCURACY:
+- Top-2 Accuracy: 0.6000
+- Top-3 Accuracy: 0.8000
+
+================================================================================
+
+PER-CLASS METRICS:
+
+SINGLE_FAMILY:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+APARTMENT_CONDO:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+COMMERCIAL:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+MIXED_USE:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+EMPTY_LAND:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+UNKNOWN:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+================================================================================
