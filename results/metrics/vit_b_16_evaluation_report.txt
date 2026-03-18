@@ -1,0 +1,51 @@
+
+EVALUATION REPORT - VIT_B_16
+Generated on: 2026-03-17 15:28:18
+
+================================================================================
+
+OVERALL METRICS:
+- Accuracy: 1.0000
+- Precision (Macro): 0.5000
+- Recall (Macro): 0.5000
+- F1-Score (Macro): 0.5000
+
+TOP-K ACCURACY:
+- Top-2 Accuracy: 1.0000
+- Top-3 Accuracy: 1.0000
+
+================================================================================
+
+PER-CLASS METRICS:
+
+SINGLE_FAMILY:
+  - Precision: 1.0000
+  - Recall: 1.0000
+  - F1-Score: 1.0000
+
+APARTMENT_CONDO:
+  - Precision: 1.0000
+  - Recall: 1.0000
+  - F1-Score: 1.0000
+
+COMMERCIAL:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+MIXED_USE:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+EMPTY_LAND:
+  - Precision: 0.0000
+  - Recall: 0.0000
+  - F1-Score: 0.0000
+
+UNKNOWN:
+  - Precision: 1.0000
+  - Recall: 1.0000
+  - F1-Score: 1.0000
+
+================================================================================

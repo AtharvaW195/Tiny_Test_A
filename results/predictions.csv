@@ -1,0 +1,9 @@
+location_id,address,predicted_label,confidence,model_name
+1315_BEATTIES_FORD_RD_CHARLOTTE_NC,1315 Beatties Ford Rd Charlotte Nc,single_family,0.99790925,vgg16
+1320_LASALLE_ST_CHARLOTTE_NC,1320 Lasalle St Charlotte Nc,unknown,1.0,vgg16
+1327_BEATTIES_FORD_RD_CHARLOTTE_NC,1327 Beatties Ford Rd Charlotte Nc,apartment_condo,0.9985146,vgg16
+1315_BEATTIES_FORD_RD_CHARLOTTE_NC,1315 Beatties Ford Rd Charlotte Nc,single_family,0.99996567,vgg16
+1400_LASALLE_ST_CHARLOTTE_NC,1400 Lasalle St Charlotte Nc,single_family,0.99999964,vgg16
+1315_BEATTIES_FORD_RD_CHARLOTTE_NC,1315 Beatties Ford Rd Charlotte Nc,single_family,0.9995658,vgg16
+1341_LASALLE_ST_CHARLOTTE_NC,1341 Lasalle St Charlotte Nc,apartment_condo,0.6398882,vgg16
+1341_LASALLE_ST_CHARLOTTE_NC,1341 Lasalle St Charlotte Nc,apartment_condo,0.6665231,vgg16

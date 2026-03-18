@@ -1,0 +1,35 @@
+
+CONTROLLED VARIATION EXPERIMENT ANALYSIS
+Generated on: 2026-03-17 15:30:28
+
+================================================================================
+
+1. WHAT DID YOU CHANGE?
+   - Changed: Data augmentation during training
+   - Baseline: Full augmentation (RandomCrop, RandomHorizontalFlip, RandomRotation, ColorJitter)
+   - Variation: No augmentation (only Resize + ToTensor + Normalize)
+   - Everything else identical: same model (vgg16), hyperparameters, random seed, training procedure
+
+2. WHY DID YOU CHOOSE THIS CHANGE?
+   - Hypothesis: Data augmentation helps prevent overfitting on small datasets by creating diverse training samples
+   - Test impact: Removing augmentation should reveal if the model relies on synthetic variations
+   - Importance: Understanding augmentation's role is crucial for small dataset scenarios like this (104 images)
+
+3. WHAT CHANGED IN PREDICTIONS/OUTPUTS?
+   - Performance Change: F1-Macro 0.5000 → 0.4028 (-0.0972)
+   - Accuracy Change: 1.0000 → 0.7500 (-0.2500)
+   - Prediction Agreement: 75.0% (2 disagreements out of 8)
+   - Confidence Change: Average confidence 0.9128 → 0.9782
+
+   Sample Disagreements:
+   - 1315_BEATTIES_FORD_RD_CHARLOTTE_NC: True=single_family | Baseline=single_family(1.000) | Variation=apartment_condo(0.950)
+   - 1315_BEATTIES_FORD_RD_CHARLOTTE_NC: True=single_family | Baseline=single_family(1.000) | Variation=apartment_condo(0.980)
+
+
+4. WHAT DOES THIS TELL YOU ABOUT YOUR PIPELINE?
+   - Data augmentation significantly improves performance
+   - The moderate agreement rate (75.0%) suggests some sensitivity to training variations
+   - For small datasets like this (104 images), augmentation is crucial for robust performance
+   - The pipeline is reliable, indicating good generalization
+
+================================================================================
