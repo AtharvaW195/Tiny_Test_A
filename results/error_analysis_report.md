@@ -1,6 +1,6 @@
 # Error Analysis Report
 
-**Generated on:** 2026-03-17 15:31:18
+**Generated on:** 2026-03-17 23:00:30
 
 ## Overall Performance
 - **Model:** vgg16
@@ -21,7 +21,7 @@
 - **Failure Mode:** ambiguous
 - **Images in Location:** 12
 - **Top Probabilities:** {'apartment_condo': np.float32(0.6398882), 'single_family': np.float32(0.35958958), 'unknown': np.float32(0.0005221502)}
-- **Analysis Figure:** results\metrics\case_study_1341_LASALLE_ST_CHARLOTTE_NC_vgg16.png
+- **Analysis Figure:** C:\Atharva_Projects\Tiny_Test_A\Tiny_Test_A\results\metrics\case_study_1341_LASALLE_ST_CHARLOTTE_NC_vgg16.png
 
 ## Key Insights
 1. **High confidence errors** indicate the model has learned misleading patterns

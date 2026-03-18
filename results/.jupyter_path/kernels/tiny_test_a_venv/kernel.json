@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "C:\\Atharva_Projects\\Tiny_Test_A\\Tiny_Test_A\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "tiny_test_a_venv",
+  "language": "python"
+}
